@@ -63,6 +63,7 @@
     <Compile Include="Data\Classi\Score.cs" />
     <Compile Include="Data\Classi\Season.cs" />
     <Compile Include="Data\Classi\Team.cs" />
+    <Compile Include="Data\Classi\TimeAndLapseContext.cs" />
     <Compile Include="Data\Classi\Timing.cs" />
     <Compile Include="Data\Classi\TimingType.cs" />
     <Compile Include="Data\Designer\Category.Designer.cs">

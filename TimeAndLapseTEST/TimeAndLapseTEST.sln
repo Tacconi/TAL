@@ -7,7 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeAndLapseLibrary", "Time
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptSQL", "ScriptSQL", "{885B0BD1-B966-42FF-B0D9-9E1CBEF4E4C8}"
 	ProjectSection(SolutionItems) = preProject
-		TimeAndLapseLibrary\ScriptCreateTABLETimeAndLapse.sql = TimeAndLapseLibrary\ScriptCreateTABLETimeAndLapse.sql
+		TimeAndLapseLibrary\ScriptCreateDBTimeAndLapse.sql = TimeAndLapseLibrary\ScriptCreateDBTimeAndLapse.sql
+		TimeAndLapseLibrary\ScriptDropDBTimeAndLapse.sql = TimeAndLapseLibrary\ScriptDropDBTimeAndLapse.sql
 	EndProjectSection
 EndProject
 Global

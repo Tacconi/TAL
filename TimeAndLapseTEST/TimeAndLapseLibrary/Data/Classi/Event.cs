@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TimeAndLapseLibrary.Data.Designer
 {
-    public partial class Player
+    public partial class Event
     {
         partial void InitializePartial()
         {
-            PlayerId = new Guid();
+            EventId = new Guid();
         }
     }
 }

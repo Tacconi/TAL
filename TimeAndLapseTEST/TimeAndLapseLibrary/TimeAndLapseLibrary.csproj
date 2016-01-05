@@ -50,115 +50,123 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Classi\Category.cs" />
+    <Compile Include="Data\Classi\Championship.cs" />
+    <Compile Include="Data\Classi\Event.cs" />
+    <Compile Include="Data\Classi\Manche.cs" />
+    <Compile Include="Data\Classi\Partecipant.cs" />
     <Compile Include="Data\Designer\Category.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\CategoryConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Championship.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\ChampionshipConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Event.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\EventConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\FakeDbSet.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\FakeTimeAndLapseContext.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\ITimeAndLapseContext.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Manch.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\ManchConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Partecipant.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\PartecipantConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Player.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\PlayerConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Point.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\PointConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Race.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\RaceConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Registration.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\RegistrationConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Round.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\RoundConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Run.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\RunConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Score.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\ScoreConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Season.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\SeasonConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Team.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\TeamConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
-    <Compile Include="Data\Designer\TimeAndLapseContext.cs">
+    <Compile Include="Data\Designer\DbTimeAndLapse.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Designer\TimeAndLapseContext.cs">
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\Timing.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\TimingConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\TimingType.Designer.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Designer\TimingTypeConfiguration.cs">
-      <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
+      <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Classi\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -171,9 +179,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Data\Designer\TimeAndLapseContext.tt">
+    <Content Include="Data\Designer\DbTimeAndLapse.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TimeAndLapseContext.cs</LastGenOutput>
+      <LastGenOutput>DbTimeAndLapse.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

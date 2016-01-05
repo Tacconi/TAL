@@ -55,6 +55,16 @@
     <Compile Include="Data\Classi\Event.cs" />
     <Compile Include="Data\Classi\Manche.cs" />
     <Compile Include="Data\Classi\Partecipant.cs" />
+    <Compile Include="Data\Classi\Point.cs" />
+    <Compile Include="Data\Classi\Race.cs" />
+    <Compile Include="Data\Classi\Registration.cs" />
+    <Compile Include="Data\Classi\Round.cs" />
+    <Compile Include="Data\Classi\Run.cs" />
+    <Compile Include="Data\Classi\Score.cs" />
+    <Compile Include="Data\Classi\Season.cs" />
+    <Compile Include="Data\Classi\Team.cs" />
+    <Compile Include="Data\Classi\Timing.cs" />
+    <Compile Include="Data\Classi\TimingType.cs" />
     <Compile Include="Data\Designer\Category.Designer.cs">
       <DependentUpon>DbTimeAndLapse.tt</DependentUpon>
     </Compile>

@@ -50,128 +50,128 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classi\Designer\Category.Designer.cs">
+    <Compile Include="Data\Designer\Category.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\CategoryConfiguration.cs">
+    <Compile Include="Data\Designer\CategoryConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Championship.Designer.cs">
+    <Compile Include="Data\Designer\Championship.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\ChampionshipConfiguration.cs">
+    <Compile Include="Data\Designer\ChampionshipConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Event.Designer.cs">
+    <Compile Include="Data\Designer\Event.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\EventConfiguration.cs">
+    <Compile Include="Data\Designer\EventConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\FakeDbSet.cs">
+    <Compile Include="Data\Designer\FakeDbSet.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\FakeTimeAndLapseContext.cs">
+    <Compile Include="Data\Designer\FakeTimeAndLapseContext.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\ITimeAndLapseContext.cs">
+    <Compile Include="Data\Designer\ITimeAndLapseContext.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Manch.Designer.cs">
+    <Compile Include="Data\Designer\Manch.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\ManchConfiguration.cs">
+    <Compile Include="Data\Designer\ManchConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Partecipant.Designer.cs">
+    <Compile Include="Data\Designer\Partecipant.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\PartecipantConfiguration.cs">
+    <Compile Include="Data\Designer\PartecipantConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Player.Designer.cs">
+    <Compile Include="Data\Designer\Player.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\PlayerConfiguration.cs">
+    <Compile Include="Data\Designer\PlayerConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Point.Designer.cs">
+    <Compile Include="Data\Designer\Point.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\PointConfiguration.cs">
+    <Compile Include="Data\Designer\PointConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Race.Designer.cs">
+    <Compile Include="Data\Designer\Race.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\RaceConfiguration.cs">
+    <Compile Include="Data\Designer\RaceConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Registration.Designer.cs">
+    <Compile Include="Data\Designer\Registration.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\RegistrationConfiguration.cs">
+    <Compile Include="Data\Designer\RegistrationConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Round.Designer.cs">
+    <Compile Include="Data\Designer\Round.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\RoundConfiguration.cs">
+    <Compile Include="Data\Designer\RoundConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Run.Designer.cs">
+    <Compile Include="Data\Designer\Run.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\RunConfiguration.cs">
+    <Compile Include="Data\Designer\RunConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Score.Designer.cs">
+    <Compile Include="Data\Designer\Score.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\ScoreConfiguration.cs">
+    <Compile Include="Data\Designer\ScoreConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Season.Designer.cs">
+    <Compile Include="Data\Designer\Season.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\SeasonConfiguration.cs">
+    <Compile Include="Data\Designer\SeasonConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Team.Designer.cs">
+    <Compile Include="Data\Designer\Team.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\TeamConfiguration.cs">
+    <Compile Include="Data\Designer\TeamConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\TimeAndLapseContext.cs">
+    <Compile Include="Data\Designer\TimeAndLapseContext.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Timing.Designer.cs">
+    <Compile Include="Data\Designer\Timing.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\TimingConfiguration.cs">
+    <Compile Include="Data\Designer\TimingConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\TimingType.Designer.cs">
+    <Compile Include="Data\Designer\TimingType.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\TimingTypeConfiguration.cs">
+    <Compile Include="Data\Designer\TimingTypeConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Player.cs" />
+    <Compile Include="Data\Classi\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Classi\Designer\EF.Reverse.POCO.Core.ttinclude" />
-    <None Include="Classi\Designer\EF.Reverse.POCO.ttinclude" />
+    <None Include="Data\Designer\EF.Reverse.POCO.Core.ttinclude" />
+    <None Include="Data\Designer\EF.Reverse.POCO.ttinclude" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Classi\Designer\TimeAndLapseContext.tt">
+    <Content Include="Data\Designer\TimeAndLapseContext.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>TimeAndLapseContext.cs</LastGenOutput>
     </Content>

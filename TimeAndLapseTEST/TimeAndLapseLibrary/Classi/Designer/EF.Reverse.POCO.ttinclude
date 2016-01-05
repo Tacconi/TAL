@@ -786,7 +786,7 @@ if (IncludeTableValuedFunctions)
 foreach(Table tbl in from t in tables.Where(t => !t.IsMapping).OrderBy(x => x.NameHumanCase) select t)
 {
 #>
-<# fileManager.StartNewFile(tbl.NameHumanCase + FileExtension); #>
+<# fileManager.StartNewFile(tbl.NameHumanCase + ".Designer" + FileExtension); #>
 <#if(IncludeComments){#>    // <#=tbl.Name#>
 <# } #>
 <# if(AddWcfDataAttributes) { #>    [DataContract<#=ExtraWcfDataContractAttributes#>]

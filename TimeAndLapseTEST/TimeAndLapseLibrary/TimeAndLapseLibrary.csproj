@@ -50,19 +50,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classi\Designer\Category.cs">
+    <Compile Include="Classi\Designer\Category.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\CategoryConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Championship.cs">
+    <Compile Include="Classi\Designer\Championship.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\ChampionshipConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Event.cs">
+    <Compile Include="Classi\Designer\Event.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\EventConfiguration.cs">
@@ -77,67 +77,67 @@
     <Compile Include="Classi\Designer\ITimeAndLapseContext.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Manch.cs">
+    <Compile Include="Classi\Designer\Manch.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\ManchConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Partecipant.cs">
+    <Compile Include="Classi\Designer\Partecipant.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\PartecipantConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Player.cs">
+    <Compile Include="Classi\Designer\Player.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\PlayerConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Point.cs">
+    <Compile Include="Classi\Designer\Point.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\PointConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Race.cs">
+    <Compile Include="Classi\Designer\Race.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\RaceConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Registration.cs">
+    <Compile Include="Classi\Designer\Registration.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\RegistrationConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Round.cs">
+    <Compile Include="Classi\Designer\Round.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\RoundConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Run.cs">
+    <Compile Include="Classi\Designer\Run.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\RunConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Score.cs">
+    <Compile Include="Classi\Designer\Score.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\ScoreConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Season.cs">
+    <Compile Include="Classi\Designer\Season.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\SeasonConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Team.cs">
+    <Compile Include="Classi\Designer\Team.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\TeamConfiguration.cs">
@@ -148,19 +148,19 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\Timing.cs">
+    <Compile Include="Classi\Designer\Timing.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\TimingConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Classi\Designer\TimingType.cs">
+    <Compile Include="Classi\Designer\TimingType.Designer.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Classi\Designer\TimingTypeConfiguration.cs">
       <DependentUpon>TimeAndLapseContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="TimeAndLapseContext.cs" />
+    <Compile Include="Classi\Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
